@@ -10,10 +10,25 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20180228050311) do
+ActiveRecord::Schema.define(version: 20180228100331) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "crypto_pairs", force: :cascade do |t|
+    t.text "name"
+    t.decimal "value"
+    t.datetime "on_time"
+    t.bigint "exchange_id"
+    t.index ["exchange_id"], name: "index_crypto_pairs_on_exchange_id"
+    t.index ["name", "on_time"], name: "index_crypto_pairs_on_name_and_on_time"
+  end
+
+  create_table "exchanges", force: :cascade do |t|
+    t.text "short_name"
+    t.text "name"
+    t.index ["short_name"], name: "index_exchanges_on_short_name"
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "email", default: "", null: false
@@ -32,4 +47,5 @@ ActiveRecord::Schema.define(version: 20180228050311) do
     t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
   end
 
+  add_foreign_key "crypto_pairs", "exchanges"
 end
