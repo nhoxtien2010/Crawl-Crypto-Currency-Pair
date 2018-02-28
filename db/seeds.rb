@@ -31,7 +31,8 @@ Exchange.all.each do |exc|
   %w[btc_usd eth_usd etc_usd].each do |name|
     100.times do
       time += 1.minute
-      exc.crypto_pairs.create(
+      CryptoPair.create(
+        exchange_id: exc.id,
         name: name,
         value: [1..100].sample
       )
