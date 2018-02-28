@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="64891814-8895-407b-988c-2faadece5663" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/home_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/home_controller.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/models/crypto_pair.rb" afterPath="$PROJECT_DIR$/app/models/crypto_pair.rb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/db/seeds.rb" afterPath="$PROJECT_DIR$/db/seeds.rb" />
-    </list>
+    <list default="true" id="64891814-8895-407b-988c-2faadece5663" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.bundle/" />
     <ignored path="$PROJECT_DIR$/components/" />
     <ignored path="$PROJECT_DIR$/public/system/" />
@@ -79,11 +74,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="seeds.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/seeds.rb">
+      <file leaf-file-name="sample_component.js.jsx" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/sample_component.js.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="525">
-              <caret line="35" column="19" lean-forward="true" selection-start-line="35" selection-start-column="19" selection-end-line="35" selection-end-column="19" />
+            <state relative-caret-position="210">
+              <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="masterList.js.jsx" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/masterList.js.jsx">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="375">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
               <folding />
             </state>
           </provider>
@@ -93,7 +98,7 @@
         <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e5b450b5-1609-4a21-893d-993ef9e55906/console.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="105">
-              <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+              <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -136,31 +141,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="exchange.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/models/exchange.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="45">
-              <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="crypto_pair.rb" pinned="false" current-in-tab="true">
+      <file leaf-file-name="crypto_pair.rb" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/models/crypto_pair.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+            <state relative-caret-position="240">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="20180228092747_create_crypto_pairs.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/db/migrate/20180228092747_create_crypto_pairs.rb">
+      <file leaf-file-name="index.html.erb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="3" lean-forward="false" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
+            <state relative-caret-position="30">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -208,6 +203,7 @@
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/e5b450b5-1609-4a21-893d-993ef9e55906/console.sql" />
         <option value="$PROJECT_DIR$/app/controllers/home_controller.rb" />
         <option value="$PROJECT_DIR$/app/models/crypto_pair.rb" />
+        <option value="$PROJECT_DIR$/app/assets/javascripts/components/masterList.js.jsx" />
       </list>
     </option>
   </component>
@@ -258,6 +254,33 @@
             <path>
               <item name="Crawl-Crypto-Currency-Pair" type="b2602c69:ProjectViewProjectNode" />
               <item name="Crawl-Crypto-Currency-Pair" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawl-Crypto-Currency-Pair" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawl-Crypto-Currency-Pair" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawl-Crypto-Currency-Pair" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawl-Crypto-Currency-Pair" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="assets" type="462c0819:PsiDirectoryNode" />
+              <item name="javascripts" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawl-Crypto-Currency-Pair" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawl-Crypto-Currency-Pair" type="462c0819:PsiDirectoryNode" />
+              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Crawl-Crypto-Currency-Pair" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Crawl-Crypto-Currency-Pair" type="462c0819:PsiDirectoryNode" />
               <item name="db" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -272,18 +295,19 @@
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="SearchEverywhereHistoryKey" value="cryp&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/app/models/crypto_pair.rb&#10;homecontr&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/app/controllers/home_controller.rb&#10;crypto&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/app/models/crypto_pair.rb&#10;homecontro&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/app/controllers/home_controller.rb&#10;see&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/db/seeds.rb&#10;homec&#9;null&#9;null&#10;ex&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/db/migrate/20180228092822_create_exchanges.rb&#10;data&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/config/database.yml&#10;application&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/app/views/layouts/application.html.erb&#10;w&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/config/webpacker.yml&#10;html&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/app/views/layouts/application.html.erb&#10;webpack&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/config/webpacker.yml&#10;pac&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/package.json&#10;application.js&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/app/assets/javascripts/application.js&#10;deve&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/config/environments/development.rb&#10;applica&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/config/application.rb&#10;gemfi&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/Gemfile&#10;pack&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/package.json&#10;Chunk.js&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/node_modules/webpack/lib/Chunk.js&#10;gem&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/Gemfile&#10;application.c&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/app/assets/stylesheets/application.css&#10;applic&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/app/views/layouts/application.html.erb&#10;appl&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/app/controllers/application_controller.rb&#10;giti&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/.gitignore&#10;samp&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/app/assets/javascripts/components/sample_component.js.jsx&#10;applicationcontr&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/app/controllers/application_controller.rb&#10;routes&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/config/routes.rb" />
+    <property name="SearchEverywhereHistoryKey" value="sample&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/app/assets/javascripts/components/sample_component.js.jsx&#10;index.html&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/app/views/home/index.html.erb&#10;cryp&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/app/models/crypto_pair.rb&#10;homecontr&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/app/controllers/home_controller.rb&#10;crypto&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/app/models/crypto_pair.rb&#10;homecontro&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/app/controllers/home_controller.rb&#10;see&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/db/seeds.rb&#10;homec&#9;null&#9;null&#10;ex&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/db/migrate/20180228092822_create_exchanges.rb&#10;data&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/config/database.yml&#10;application&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/app/views/layouts/application.html.erb&#10;w&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/config/webpacker.yml&#10;html&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/app/views/layouts/application.html.erb&#10;webpack&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/config/webpacker.yml&#10;pac&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/package.json&#10;application.js&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/app/assets/javascripts/application.js&#10;deve&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/config/environments/development.rb&#10;applica&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/config/application.rb&#10;gemfi&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/Gemfile&#10;pack&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/package.json&#10;Chunk.js&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/node_modules/webpack/lib/Chunk.js&#10;gem&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/Gemfile&#10;application.c&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/app/assets/stylesheets/application.css&#10;applic&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/app/views/layouts/application.html.erb&#10;appl&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/app/controllers/application_controller.rb&#10;giti&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/.gitignore&#10;samp&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/app/assets/javascripts/components/sample_component.js.jsx&#10;applicationcontr&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/app/controllers/application_controller.rb&#10;routes&#9;FILE&#9;file:///Users/gumi05/Projects/Crawl-Crypto-Currency-Pair/config/routes.rb" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="PostgreSQL" />
     <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/app/models" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/app/javascript" />
       <recent name="$PROJECT_DIR$/app/assets/webpack/packs" />
       <recent name="$PROJECT_DIR$/app/javascript/packs" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/assets/javascripts/components" />
+      <recent name="$PROJECT_DIR$/app/models" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -314,15 +338,16 @@
       <updated>1519783753682</updated>
       <workItem from="1519788717362" duration="4282000" />
       <workItem from="1519797561613" duration="11676000" />
-      <workItem from="1519812783473" duration="3939000" />
+      <workItem from="1519812783473" duration="4545000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="19943000" />
+    <option name="totallyTimeSpent" value="20549000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1862" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.260989" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -332,7 +357,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290735" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -356,15 +381,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/config/environments/development.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="78" lean-forward="false" selection-start-line="6" selection-start-column="78" selection-end-line="6" selection-end-column="78" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/initializers/active_admin.rb" />
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/dba09bd1-54f5-4060-abe7-8dcc405cfcc0/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -407,14 +423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
           <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/sample_component.js.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="53" lean-forward="false" selection-start-line="14" selection-start-column="53" selection-end-line="14" selection-end-column="53" />
           <folding />
         </state>
       </provider>
@@ -657,7 +665,7 @@
     <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/e5b450b5-1609-4a21-893d-993ef9e55906/console.sql">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
-          <caret line="7" column="0" lean-forward="true" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -672,8 +680,32 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/models/crypto_pair.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="35" lean-forward="false" selection-start-line="12" selection-start-column="35" selection-end-line="12" selection-end-column="35" />
+        <state relative-caret-position="240">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/sample_component.js.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="39" lean-forward="false" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/components/masterList.js.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="375">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
           <folding />
         </state>
       </provider>
