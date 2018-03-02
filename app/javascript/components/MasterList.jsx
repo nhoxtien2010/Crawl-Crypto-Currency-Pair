@@ -10,7 +10,7 @@ class MasterList extends React.Component {
   renderList () {
     const list= _.cloneDeep(this.state.prices)
     return _.map(list, (val) => {
-      return (<tr>
+      return (<tr key={`key-${val.name}`}>
         <td> {val.name}</td>
         <td>{val.value}</td>
       </tr>)
@@ -18,9 +18,18 @@ class MasterList extends React.Component {
   }
   render() {
     return (
-        <div class="table-responsive">
-          <table class="table table-bordered table-striped table-responsive">
-            {this.renderList()}
+        <div>
+          <table className="table table-bordered ">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Value</th>
+              </tr>
+
+            </thead>
+            <tbody>
+              {this.renderList()}
+            </tbody>
           </table>
         </div>
     )
