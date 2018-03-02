@@ -1,14 +1,23 @@
 {
   "name": "Crawl-Crypto-Currency-Pair",
   "private": true,
+  "scripts": {
+    "build": "./bin/webpack",
+    "start": "./bin/webpack-dev-server"
+  },
   "dependencies": {
     "@rails/webpacker": "^3.0.2",
     "autoprefixer": "^8.0.0",
+    "babel-core": "^6.7.6",
+    "babel-loader": "^6.2.4",
     "babel-plugin-syntax-dynamic-import": "^6.18.0",
     "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
     "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.6.0",
     "babel-preset-react": "^6.24.1",
-    "bootstrap": "4.0.0-alpha.6",
+    "babel-preset-stage-0": "^6.5.0",
+    "bootstrap": "^4.0.0",
     "coffee-loader": "^0.9.0",
     "coffee-script": "^1.12.7",
     "compression-webpack-plugin": "^1.1.10",
@@ -31,12 +40,15 @@
     "rails-erb-loader": "^5.2.1",
     "react": "^16.2.0",
     "react-dom": "^16.2.0",
+    "react_ujs": "^2.4.4",
     "resolve-url-loader": "^2.2.1",
     "sass-loader": "^6.0.6",
     "style-loader": "^0.20.2",
+    "tether": "^1.4.3",
     "webpack": "<4.0.0",
     "webpack-manifest-plugin": "^1.3.2",
-    "webpack-merge": "^4.1.2"
+    "webpack-merge": "^4.1.2",
+    "webpacker-react": "^0.3.2"
   },
   "devDependencies": {
     "babel-cli": "^6.22.2",

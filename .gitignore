@@ -24,3 +24,4 @@ yarn-debug.log*
 .yarn-integrity
 /.babelrc
 /yarn.lock
+*.babelrc
