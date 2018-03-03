@@ -14,3 +14,35 @@ class CryptoPair < ApplicationRecord
   end
 
 end
+
+#
+# absoluteChange
+# :
+#     undefined
+# close
+# :
+#     25.718722
+# date
+# :
+#     Tue Jan 05 2010 00:00:00 GMT+0700 (ICT) {}
+# dividend
+# :
+#     ""
+# high
+# :
+#     25.83502196495549
+# low
+# :
+#     25.452895407434543
+# open
+# :
+#     25.627344939513726
+# percentChange
+# :
+#     undefined
+# split
+# :
+#     ""
+# volume
+# :
+#     49749600

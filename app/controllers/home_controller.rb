@@ -9,4 +9,8 @@ class HomeController < ApplicationController
     end
   end
 
+  def candle_stick_chart
+
+  end
+
 end

@@ -25,3 +25,8 @@ yarn-debug.log*
 /.babelrc
 /yarn.lock
 *.babelrc
+/public/packs
+/public/packs-test
+/node_modules
+yarn-debug.log*
+.yarn-integrity
