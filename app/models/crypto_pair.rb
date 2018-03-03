@@ -13,6 +13,20 @@ class CryptoPair < ApplicationRecord
     connection.exec_query(sql).to_a
   end
 
+  def self.candle_chart_data(exchange_id)
+    return_data = []
+    order('on_time asc').where("name='btc_usd' and exchange_id = #{exchange_id}").each do |cp|
+      return_data << {
+        date: cp.on_time.to_date,
+        close: cp.value,
+        open: cp.value-1,
+        high: cp.value+2,
+        low: cp.value-2
+      }
+    end
+    return_data
+  end
+
 end
 
 #

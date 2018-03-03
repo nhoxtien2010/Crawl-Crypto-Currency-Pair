@@ -10,14 +10,25 @@ import { CandlestickSeries } from "react-stockcharts/lib/series";
 import { XAxis, YAxis } from "react-stockcharts/lib/axes";
 import { fitWidth } from "react-stockcharts/lib/helper";
 import { last, timeIntervalBarWidth } from "react-stockcharts/lib/utils";
+import { timeParse } from "d3-time-format";
+import _ from 'lodash'
+
+function parseData(parse,d) {
+    d.date = parse(d.date);
+    return d;
+}
+
+const parseDate = timeParse("%Y-%m-%d");
 
 class CandleStickChart extends React.Component {
     render() {
         const { type, width, data, ratio } = this.props;
+
+        let renderData  = _.map( data, (d) => parseData(parseDate,d))
         const xAccessor = d => d.date;
         const xExtents = [
-            xAccessor(last(data)),
-            xAccessor(data[data.length - 100])
+            xAccessor(last(renderData)),
+            xAccessor(renderData[renderData.length - 100])
         ];
         return (
             <ChartCanvas height={400}
@@ -26,7 +37,7 @@ class CandleStickChart extends React.Component {
                          margin={{ left: 50, right: 50, top: 10, bottom: 30 }}
                          type={type}
                          seriesName="MSFT"
-                         data={data}
+                         data={renderData}
                          xAccessor={xAccessor}
                          xScale={scaleTime()}
                          xExtents={xExtents}>

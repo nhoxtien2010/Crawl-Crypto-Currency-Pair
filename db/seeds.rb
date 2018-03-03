@@ -28,13 +28,15 @@ stock_time = Time.current
 
 Exchange.all.each do |exc|
   time = stock_time
+
   %w[btc_usd eth_usd etc_usd].each do |name|
-    100.times do
-      time += 1.minute
+    1000.times do
+      time += 1.day
       CryptoPair.create(
         exchange_id: exc.id,
         name: name,
-        value: [1..100].sample
+        value: rand(1..100),
+        on_time: time
       )
     end
   end
