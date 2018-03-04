@@ -1,17 +1,10 @@
 
 import React from 'react';
 import Chart from './Chart';
-
 import { TypeChooser } from "react-stockcharts/lib/helper";
 
 
 class ChartContainer extends React.Component {
-    // constructor (props) {
-    //     super(props)
-    //     this.state = {
-    //         data: props.data
-    //     }
-    // }
     componentDidMount() {
         this.setState({ data: this.props.data})
     }

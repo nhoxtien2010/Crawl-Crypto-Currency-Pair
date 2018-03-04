@@ -15,48 +15,15 @@ class CryptoPair < ApplicationRecord
 
   def self.candle_chart_data(exchange_id)
     return_data = []
-    order('on_time asc').where("name='btc_usd' and exchange_id = #{exchange_id}").each do |cp|
+    order('on_time asc').where("name='btc_usd' and exchange_id = #{exchange_id}").each_slice(10).each do |cp|
       return_data << {
-        date: cp.on_time.to_date,
-        close: cp.value,
-        open: cp.value-1,
-        high: cp.value+2,
-        low: cp.value-2
+        date: cp.first.on_time,
+        open: cp.first.value,
+        close: cp.last.value,
+        high: cp.max_by(&:value).value,
+        low: cp.min_by(&:value).value,
       }
     end
     return_data
   end
-
 end
-
-#
-# absoluteChange
-# :
-#     undefined
-# close
-# :
-#     25.718722
-# date
-# :
-#     Tue Jan 05 2010 00:00:00 GMT+0700 (ICT) {}
-# dividend
-# :
-#     ""
-# high
-# :
-#     25.83502196495549
-# low
-# :
-#     25.452895407434543
-# open
-# :
-#     25.627344939513726
-# percentChange
-# :
-#     undefined
-# split
-# :
-#     ""
-# volume
-# :
-#     49749600
